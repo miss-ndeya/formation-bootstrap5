@@ -30,9 +30,15 @@
 
 .banner,
 .order-form {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banniere2.jpg') center center fixed no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banniere2.jpg) center center fixed no-repeat;
 	background-size: cover;
 	height: 800px; 
+}
+
+.banner .banner-desc h1 {
+	font-size: 48px;
+	font-weight: 400;
+	color: #fff;
 }
 .btn-order {
 	color: var(--bs-teal);
@@ -53,11 +59,6 @@
 	}
 }
 
-.banner .banner-desc h1 {
-	font-size: 48px;
-	font-weight: 400;
-	color: #fff;
-}
 		/* !----------- menu-section ---------- */
 
 .cc-menu {
